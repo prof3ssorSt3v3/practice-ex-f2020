@@ -9,6 +9,7 @@
 1. Take the first datatype exercise and add code inside the function property to `return` the value of one of the other properties. Below the object, call the function property and assign the returned value to a new variable. Then console.log the returned value.
 2. Create three functions that console log a message. Make one a function declaration, one a function expression, and the third a function expression with an arrow function.
 3. Create a function that accepts a string parameter and a number parameter and then outputs the string the number of times specified by the number parameter.
+4. Create a function that calculates tax and tip on a number that is passed to the function. The function accepts three numbers. The first parameter is a subtotal number. The second is a tax percentage to use. The third is a percentage to use to calculate the tip. The function will calculate the amount of the tax based on the first two parameters, then add the subtotal to the tax amount. Next multiply the total of the tax and subtotal by the tip percentage and add that total with the previous. The tip is being calculated on the after tax amount. Output these three values - subtotal, total with tax, and total with tax and tip.
 
 ## Arrays
 
