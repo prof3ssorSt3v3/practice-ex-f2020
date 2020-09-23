@@ -21,11 +21,11 @@
 1. Create a variable that holds a bunch of Lorem Ipsum text. Write a function that will accept two string parameters. The first will be the string to look through. The second is the thing to look for. The function needs to return the number of times the second string appears in the first string.
 2. Create a variable that holds a string. Write a function that accepts the string and returns the same string backwards.
 3. Create a function that accepts a string and then builds a new string made from every second letter in the string.
-4.
+4. Create a function that accepts a single number parameter and then outputs a new version of that number as a string. The number needs to be converted to a string using the `toString` method. Next, the length of the string needs to be 25 characters or more. If the string's length is less than 25 characters then use the string `padStart` method to add extra `0`s in front.
 
 ## Loops
 
-1. Start with this code as an example.
+1. Start with the code below as an example. Create new versions of this code that give the exact same output with a `for in` loop, a `for of` loop, a `do while` loop, a `while` loop, and the Array `forEach` method.
 
 ```js
 let places = [
@@ -42,8 +42,6 @@ for (let num = 0, len = places.length; num < len; num++) {
 }
 ```
 
-Create new versions of this code that give the exact same output with a `for in` loop, a `for of` loop, a `do while` loop, a `while` loop, and the Array `forEach` method.
-
 2. Create an object with 4 different properties. Create a `for in` loop that will output both the name and value of each property in the object.
 
 ## Control Flow
@@ -54,4 +52,4 @@ Create new versions of this code that give the exact same output with a `for in`
 - between 100 and 999 inclusive
 - greater or equal to 1000
 
-2.
+2. Create a new version of the control flow exercise 1 that uses nested ternary operators.
