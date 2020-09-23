@@ -8,6 +8,7 @@
 
 1. Take the first datatype exercise and add code inside the function property to `return` the value of one of the other properties. Below the object, call the function property and assign the returned value to a new variable. Then console.log the returned value.
 2. Create three functions that console log a message. Make one a function declaration, one a function expression, and the third a function expression with an arrow function.
+3. Create a function that accepts a string parameter and a number parameter and then outputs the string the number of times specified by the number parameter.
 
 ## Arrays
 
@@ -19,6 +20,8 @@
 
 1. Create a variable that holds a bunch of Lorem Ipsum text. Write a function that will accept two string parameters. The first will be the string to look through. The second is the thing to look for. The function needs to return the number of times the second string appears in the first string.
 2. Create a variable that holds a string. Write a function that accepts the string and returns the same string backwards.
+3. Create a function that accepts a string and then builds a new string made from every second letter in the string.
+4.
 
 ## Loops
 
