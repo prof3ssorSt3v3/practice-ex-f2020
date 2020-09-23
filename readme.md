@@ -25,4 +25,33 @@
 
 ## Loops
 
-## if else
+1. Start with this code as an example.
+
+```js
+let places = [
+  'Ottawa',
+  'Toronto',
+  'Vancouver',
+  'Winnipeg',
+  'Edmonton',
+  'Calgary',
+  'Halifax',
+];
+for (let num = 0, len = places.length; num < len; num++) {
+  console.log(places[num].toLocaleUpperCase('en-CA'));
+}
+```
+
+Create new versions of this code that give the exact same output with a `for in` loop, a `for of` loop, a `do while` loop, a `while` loop, and the Array `forEach` method.
+
+2. Create an object with 4 different properties. Create a `for in` loop that will output both the name and value of each property in the object.
+
+## Control Flow
+
+1. Create a `function` which accepts a number parameter. The function needs to contains an `if statement` that will output three different messages depending on whether the number parameter value is:
+
+- less than 100
+- between 100 and 999 inclusive
+- greater or equal to 1000
+
+2.
