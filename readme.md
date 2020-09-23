@@ -18,6 +18,7 @@
 ## Strings
 
 1. Create a variable that holds a bunch of Lorem Ipsum text. Write a function that will accept two string parameters. The first will be the string to look through. The second is the thing to look for. The function needs to return the number of times the second string appears in the first string.
+2. Create a variable that holds a string. Write a function that accepts the string and returns the same string backwards.
 
 ## Loops
 
