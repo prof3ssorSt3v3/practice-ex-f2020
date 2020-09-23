@@ -11,6 +11,8 @@
 
 ## Arrays
 
+1. Create an Array literal with 4 names. Create a function that accepts one parameter - an Array. The function needs to loop through the values in the Array and return a new Array where all the names have been capitalized. There are many ways to solve this. Call the function and pass in the name of arrays. `console.log()` the return value from the function.
+
 ## Loops
 
 ## if else
