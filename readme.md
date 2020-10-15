@@ -95,6 +95,20 @@ for (let num = 0, len = places.length; num < len; num++) {
 ```
 
 2. Create an object with 4 different properties. Create a `for in` loop that will output both the name and value of each property in the object.
+3. Create nested loops that will loop through the objects in this array and output all the property names and values.
+
+```js
+const students = [
+  { num: 456, name: 'Anoop', program: 'Advanced Beginning' },
+  { num: 654, name: 'Mariana', program: 'Beginning for Intermediates' },
+  { num: 564, name: 'Manuel', program: 'Advanced Introductory' },
+  {
+    num: 645,
+    name: 'Aiden',
+    program: 'Intermediate Introduction to Beginning Advanced',
+  },
+];
+```
 
 ## Control Flow
 
@@ -105,3 +119,8 @@ for (let num = 0, len = places.length; num < len; num++) {
 - greater or equal to 1000
 
 2. Create a new version of the control flow exercise 1 that uses nested ternary operators.
+3. Create a `switch..case` statement that checks the value of a positive numeric variable that outputs one of three things:
+
+- "Between 0 and 3"
+- "Between 4 and 6"
+- "Greater than 6"
