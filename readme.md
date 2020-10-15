@@ -50,6 +50,17 @@ document.addEventListener('DOMContentLoaded', APP.init);
 2. Create 2 Array literals, one with a bunch of names, one with a bunch of numbers greater than 100. Write a function that will accept an array as its one parameter and sort the Array. Make sure that the number array is being sorted numerically and the names are being sorted alphabetically.
 3. Create an empty Array. Use the `push()` method to add a series of 3 `Date` objects to the Array. Write a function that will sort the date array so that the dates appear in the same order that they appear during the year. Eg: January dates first, then February, then March... and so on.
 4. Create an Array with 8 numbers between 1 and 100. Use the filter method to generate a new Array that only contains the numbers from the original Array that are greater than 50.
+5. Explain what this function does and what the output will be:
+
+```js
+function monkeyCount(n) {
+  return Array.from({ length: n }, (_, i) => i + 1);
+}
+```
+
+6. Create an Array with 5 strings and then use the `map` method to generate a new version of the Array where only the last letter of each string is capitalized.
+7. Create a String that holds a sentence. Use the `split` method to convert the String into an Array of individual letters and chain on the `forEach` method. The `forEach`'s function will `console.log` each letter BUT alternate between uppercase and lowercase.
+8. Create an Array of integers and then use the `map` method to loop through the Array and create a new version of the Array where each integer is the hexadecimal version. eg: 15 becomes F. `Hint: use the .toString() method.`
 
 ## Numbers
 
