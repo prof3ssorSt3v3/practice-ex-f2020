@@ -60,12 +60,13 @@ function monkeyCount(n) {
 
 6. Create an Array with 5 strings and then use the `map` method to generate a new version of the Array where only the last letter of each string is capitalized.
 7. Create a String that holds a sentence. Use the `split` method to convert the String into an Array of individual letters and chain on the `forEach` method. The `forEach`'s function will `console.log` each letter BUT alternate between uppercase and lowercase.
-8. Create an Array of integers and then use the `map` method to loop through the Array and create a new version of the Array where each integer is the hexadecimal version. eg: 15 becomes F. `Hint: look at Number exercise 2`
+8. Create an Array of integers and then use the `map` method to loop through the Array and create a new version of the Array where each integer is the hexadecimal version. eg: 15 becomes F. `Hint: look at Numbers exercise 2`
 
 ## Numbers
 
 1. Create a function that accepts a number and then uses an `if else` statement and the `modulus` operator to determine and output whether a number is odd or even.
 2. Create a function that accepts a number and then uses the `toString` method to convert the number from a typical base-10 number into its hexadecimal equivalent.
+3. Create a function that accepts two numbers, converts the numbers to integers, determines which is the bigger and which is the smaller integer, and then returns a random integer that is between those two numbers inclusively.
 
 ## Strings
 
