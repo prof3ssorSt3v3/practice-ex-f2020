@@ -10,6 +10,39 @@
 2. Create three functions that console log a message. Make one a function declaration, one a function expression, and the third a function expression with an arrow function.
 3. Create a function that accepts a string parameter and a number parameter and then outputs the string the number of times specified by the number parameter.
 4. Create a function that calculates tax and tip on a number that is passed to the function. The function accepts three numbers. The first parameter is a subtotal number. The second is a tax percentage to use. The third is a percentage to use to calculate the tip. The function will calculate the amount of the tax based on the first two parameters, then add the subtotal to the tax amount. Next multiply the total of the tax and subtotal by the tip percentage and add that total with the previous. The tip is being calculated on the after tax amount. Output these three values - subtotal, total with tax, and total with tax and tip.
+5. Fix the scope / hoisting problems in this code with the fewest changes possible:
+
+```js
+init();
+let init = function () {
+  output();
+};
+let output = function () {
+  console.log(NAME);
+};
+const NAME = 'Gandalf';
+```
+
+6. Take this code and re-write it as an IIFE that will run the init function when `DOMContentLoaded` happens.
+
+```js
+const APP = {
+  name: 'EnviroApp',
+  clicks: 0,
+  init: function () {
+    document.body.addEventListener('click', APP.addClick);
+  },
+  addClick: function () {
+    APP.clicks++;
+    APP.output();
+  },
+  output: function () {
+    console.log(`${APP.clicks} clicks so far`);
+  },
+};
+
+document.addEventListener('DOMContentLoaded', APP.init);
+```
 
 ## Arrays
 
