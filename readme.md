@@ -124,3 +124,67 @@ const students = [
 - "Between 0 and 3"
 - "Between 4 and 6"
 - "Greater than 6"
+
+## DOM & Events
+
+1. Use this provided array of objects:
+
+```js
+let data = [
+  { id: 14, name: 'Ricky', email: 'winner@nascar.org' },
+  { id: 34, name: 'Doctor', email: 'immortal@tardis.org' },
+  { id: 54, name: 'Chandler', email: 'c.bing@friends.org' },
+];
+```
+
+Write a script that will generate the following `card` for each object in the array and add them to the page.
+
+```html
+<div class="card" data-id="id goes here">
+  <h2 class="name">The name here</h2>
+  <p class="email">sample@email.address</p>
+</div>
+```
+
+Once they are created create some CSS for the cards and their content to make them look like cards.
+
+2. Start with this HTML on your page:
+
+```html
+<section class="cards">
+  <div class="card" data-id="34">
+    <h2 class="name">Chandler Bing</h2>
+    <p class="email">c.bing@friends.org</p>
+    <p><a href="#">Read More...</a></p>
+  </div>
+  <div class="card" data-id="77">
+    <h2 class="name">Rachel Green</h2>
+    <p class="email">r.green@friends.org</p>
+    <p><a href="#">Read More...</a></p>
+  </div>
+  <div class="card" data-id="15">
+    <h2 class="name">Joey Tribianni</h2>
+    <p class="email">j.tribianni@friends.org</p>
+    <p><a href="#">Read More...</a></p>
+  </div>
+</section>
+<section class="output">
+  <p><span>You Selected:</span></p>
+</section>
+```
+
+Add a single click listener to `section.cards` which calls a function that will:
+
+- determine which card was clicked or IF a card was clicked. Try using the `closest()` method to find the card.
+- If a card was clicked `console.log` the id from `data-id` and put the value from `name` inside the `.output` section, in the paragraph.
+- Make sure that you don't delete the `span` when adding the name.
+
+3. Create a webpage with four or more paragraphs and a button. Put a different name inside each paragraph and give the paragraphs a default background colour to show where they can be clicked.
+
+In the CSS create a default style for the paragraphs and a class called `highlight` that has a bright background color.
+
+Add a click listener to the `body` AND a second click listener to the button.
+
+In the body's click function check that the user clicked a paragraph. If they did click a paragraph then: add the `highlight` CSS class which will change the background; and add the reference to the paragraph to a global array.
+
+In the button's click function loop through all the elements in the global array with `forEach`. Remove the `highlight` class from each element in the array.
