@@ -188,3 +188,5 @@ Add a click listener to the `body` AND a second click listener to the button.
 In the body's click function check that the user clicked a paragraph. If they did click a paragraph then: add the `highlight` CSS class which will change the background; and add the reference to the paragraph to a global array.
 
 In the button's click function loop through all the elements in the global array with `forEach`. Remove the `highlight` class from each element in the array.
+
+4. Start with your solution for `Hybrid 9 - DOM Manipulation`, which is the one that toggles the text of each paragraph between upper and lower case as the user mouses over and out of each paragraph. Change the solution so that the original words with capital letters get them back when the user mouses out from each paragraph.
