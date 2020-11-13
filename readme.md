@@ -190,3 +190,13 @@ In the body's click function check that the user clicked a paragraph. If they di
 In the button's click function loop through all the elements in the global array with `forEach`. Remove the `highlight` class from each element in the array.
 
 4. Start with your solution for `Hybrid 9 - DOM Manipulation`, which is the one that toggles the text of each paragraph between upper and lower case as the user mouses over and out of each paragraph. Change the solution so that the original words with capital letters get them back when the user mouses out from each paragraph.
+
+## Fetch
+
+1. Create a webpage which will use [http://jsonplaceholder.typicode.com/](http://jsonplaceholder.typicode.com/) to fetch and display data. In the HTML file, create a `<main>` element with a `<ul>` inside it. Above the `<main>`, add a `<nav>` element with 7 `<a>` links. The text in the links will be `Posts`, `Comments`, `Albums`, `Todos`, `Users`, `Photos` and `Movies`. Add a click listener to the `<nav>` element which will call a function to determine which link was clicked and make a `fetch` call to the matching resource endpoint from the **jsonplaceholder** API. The `movies` end point does not exist so it will always fail.
+
+When the results come back from the `fetch`, display each of the items in the array of results as a list item in the `main > ul`. Each new result should replace whatever was inside the `<ul>` before.
+
+Note that different result sets will have different properties.
+
+Your `fetch` needs to have an `catch()` method to handle failures. When there is an error, clear out the `<ul>` and add a new `<li>` that explains what the error was (name, type, message information from the error object).
